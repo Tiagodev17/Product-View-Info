@@ -41,6 +41,66 @@
     font-weight: 600;
     color: var(--cor2);
 }
+
+#training{
+    color: black;
+}
+
 .conteudo > a:hover{
     color: var(--cor3);
+}
+
+img{
+    border-radius: 3%;
+}
+
+.containerpai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 900px;
+    width: 1200px;
+    
+    background-color: antiquewhite;
+    
+}
+.imgnike{
+    width: 700px;
+}
+
+.content{
+    display: flex;
+}
+.conteudonike > h1 {
+    font-size: 1.8rem;
+}
+.conteudonike > .estrelafull{
+    font-size: 1.7rem;
+    color: var(--cor4);
+    
+
+}
+.estrelaincompleta{
+    font-size: 1.7rem;
+    color: var(--cor2);
+}
+.conteudonike > .review-content{
+    font-size: 1.2rem;
+}
+.conteudoimg{
+    position: relative;
+}
+.pimg{
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background-color: var(--cor1);
+    border-radius: 2rem;
 }
