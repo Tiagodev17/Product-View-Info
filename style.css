@@ -62,20 +62,21 @@ img{
 
 .container{
     height: 900px;
-    width: 1200px;
+    width: 1400px;
 }
 .imgnike{
     width: 700px;
 }
 .content{
     display: flex;
+    gap: 15px;
 }
 
 .conteudonike > h1 {
     font-size: 1.8rem;
 }
 .svgstar{
-    height: 20px;
+    height: 15px;
     width: 20px;
 }
 
@@ -90,6 +91,7 @@ img{
 .bio{
     color: var(--cor3);
     letter-spacing: 1.2px;
+    font-weight: 500;
 }
 .conteudobio{
     display: flex;
@@ -103,6 +105,7 @@ img{
     margin-top: 1rem;
     margin-left: 1rem;
     display: flex;
+    gap: 5px;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -123,13 +126,10 @@ img{
 }
 .button1{
     background-color:var(--cor2);
-
+    border: solid 2px var(--cor4);
 }
 /*---arrumar e colocar id tbm*/
-.button1:{
-    border: solid 2px var(--cor4);
-    
-}
+
 .button2{
     background-color: var(--cor1);
     border: solid 1px rgba(0, 0, 0, 0.096);
@@ -140,15 +140,32 @@ img{
 .shipping{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
+}
+.shipping > p{
+    color: var(--cor3);
+}
+.buttonssize{
+    display: flex;
+    gap: 10px;
 }
 
 .botoes{
-    height: 30px;
+    margin-top: 10px;
+    height: 35px;
     width: 45px;
     border-radius: 25%;
     border: none;
     color: var(--cor3);
+    font-weight: 600;
+
 }
+.botoes:active{
+    background-color: var(--cor4);
+    color: var(--cor1);
+
+}
+
 .conteudos{
     display: flex;
     flex-direction: column;
@@ -159,9 +176,21 @@ img{
     color: var(--cor2);
 }
 .buttoncard{
-    width: 400px;
-    height: 38px;
-}
-.contentcard{
+    width: 650px;
+    height: 40px;
+    background-color: var(--cor4);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor1);
+    font-size: 15px;
+    font-weight: 600;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contentcart{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
