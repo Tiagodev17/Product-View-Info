@@ -74,18 +74,14 @@ img{
 .conteudonike > h1 {
     font-size: 1.8rem;
 }
-.conteudonike > .estrelafull{
-    font-size: 1.5rem;
-    color: var(--cor4);
+.svgstar{
+    height: 20px;
+    width: 20px;
 }
-.estrelaincompleta{
-    font-size: 1.5rem;
-    color: var(--cor2);
-}
+
 .conteudonike > .review-content{
     font-size: 1rem;
     color: var(--cor2);
-
 }
 .dolar{
     font-size: 1.2rem;
@@ -130,7 +126,7 @@ img{
 
 }
 /*---arrumar e colocar id tbm*/
-.button1:focus{
+.button1:{
     border: solid 2px var(--cor4);
     
 }
