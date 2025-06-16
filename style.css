@@ -59,28 +59,24 @@ img{
     justify-content: center;
     align-items: center;
 }
+
 .container{
     height: 900px;
     width: 1200px;
-    
-    background-color: antiquewhite;
-    
 }
 .imgnike{
     width: 700px;
 }
-
 .content{
     display: flex;
 }
+
 .conteudonike > h1 {
     font-size: 1.8rem;
 }
 .conteudonike > .estrelafull{
     font-size: 1.7rem;
     color: var(--cor4);
-    
-
 }
 .estrelaincompleta{
     font-size: 1.7rem;
@@ -88,6 +84,19 @@ img{
 }
 .conteudonike > .review-content{
     font-size: 1.2rem;
+}
+.dolar{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.bio{
+    color: var(--cor3);
+    letter-spacing: 1.2px;
+}
+.conteudobio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .conteudoimg{
     position: relative;
@@ -125,10 +134,16 @@ img{
 }
 .button2{
     background-color: var(--cor1);
+    border: solid 1px rgba(0, 0, 0, 0.096);
 }
 .button3{
     background-color: var(--cor5);
 }
+.shipping{
+    display: flex;
+    gap: 10px;
+}
+
 .botoes{
     height: 30px;
     width: 45px;
@@ -136,10 +151,19 @@ img{
     border: none;
     color: var(--cor3);
 }
-.linkguide{
-    
-}
 .conteudos{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.links{
+    text-decoration: none;
+    color: var(--cor2);
+}
+.buttoncard{
+    width: 400px;
+    height: 38px;
+}
+.contentcard{
+    display: flex;
 }
