@@ -130,10 +130,16 @@ img{
     background-color: var(--cor5);
 }
 .botoes{
-    height: 40px;
+    height: 30px;
     width: 45px;
-    border-radius: 15%;
+    border-radius: 25%;
     border: none;
-
-
+    color: var(--cor3);
+}
+.linkguide{
+    
+}
+.conteudos{
+    display: flex;
+    flex-direction: column;
 }
