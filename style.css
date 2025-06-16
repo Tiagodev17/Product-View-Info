@@ -75,15 +75,17 @@ img{
     font-size: 1.8rem;
 }
 .conteudonike > .estrelafull{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--cor4);
 }
 .estrelaincompleta{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--cor2);
 }
 .conteudonike > .review-content{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: var(--cor2);
+
 }
 .dolar{
     font-size: 1.2rem;
