@@ -27,6 +27,7 @@
     display: flex;
 }
 
+
 .conteudo{
     display: flex;
     justify-content: flex-start;
@@ -148,6 +149,7 @@ img{
 .buttonssize{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .botoes{
@@ -166,11 +168,20 @@ img{
     
 
 }
-
+.linkguide{
+ display: flex;
+ align-items: center;
+ padding-top: 10px;   
+}
+.linkguide > a{
+    text-decoration: none;
+    color: var(--cor3);
+}
 .conteudos{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 10px;
 }
 .links{
     text-decoration: none;
@@ -194,4 +205,5 @@ img{
     display: flex;
     gap: 10px;
     align-items: center;
+    padding-top: 20px;
 }
