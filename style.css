@@ -163,6 +163,7 @@ img{
 .botoes:active{
     background-color: var(--cor4);
     color: var(--cor1);
+    
 
 }
 
