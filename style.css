@@ -188,6 +188,12 @@ img{
     gap: 20px;
     padding-top: 10px;
 }
+hr{
+    border-width: 1px;
+    
+    
+
+}
 .links{
     text-decoration: none;
     color: var(--cor2);
