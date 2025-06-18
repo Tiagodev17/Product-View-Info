@@ -167,11 +167,19 @@ img{
     font-weight: 600;
 
 }
-.botoes:active{
+
+#btn36::selection{
     background-color: var(--cor4);
     color: var(--cor1);
-    
+}
 
+.botoes:active,::before{
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+.botoes:focus,::after{
+    background-color: var(--cor4);
+    color: var(--cor1);
 }
 .linkguide{
  display: flex;
@@ -190,9 +198,6 @@ img{
 }
 hr{
     border-width: 1px;
-    
-    
-
 }
 .links{
     text-decoration: none;
