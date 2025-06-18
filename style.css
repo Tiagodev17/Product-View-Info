@@ -26,8 +26,9 @@
     height: 5rem;
     display: flex;
 }
-
-
+.conteudonike{
+    padding-left: 10px;
+}
 .conteudo{
     display: flex;
     justify-content: flex-start;
@@ -117,7 +118,11 @@ img{
     border: solid 1px rgba(0, 0, 0, 0.116);
     color: var(--cor3); 
 }
-
+.colors{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
 .button1,.button2,.button3{
     height: 35px;
     width: 35px;
@@ -180,7 +185,7 @@ img{
 .conteudos{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding-top: 10px;
 }
 .links{
