@@ -154,33 +154,31 @@ img{
 .buttonssize{
     display: flex;
     gap: 10px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
-
-.botoes{
-    margin-top: 10px;
-    height: 35px;
+.buttonssize input{
+    display: none;
+}
+.buttonssize label{
+    height: 30px;
     width: 45px;
-    border-radius: 25%;
-    border: none;
-    color: var(--cor3);
-    font-weight: 600;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    color: var(--cor2);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
 }
-
-#btn36::selection{
+.buttonssize  input:checked +label{
     background-color: var(--cor4);
     color: var(--cor1);
 }
 
-.botoes:active,::before{
-    background-color: var(--cor4);
-    color: var(--cor1);
-}
-.botoes:focus,::after{
-    background-color: var(--cor4);
-    color: var(--cor1);
-}
+
+
 .linkguide{
  display: flex;
  align-items: center;
