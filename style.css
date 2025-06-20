@@ -122,35 +122,42 @@ img{
     padding-top: 10px;
     display: flex;
     gap: 5px;
+    
 }
-.button1,.button2,.button3{
-    height: 35px;
-    width: 35px;
+.coloroption input{
+   display: none;
+}
+.coloroption label{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    border: none;
-    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
 }
-.button1{
-    background-color:var(--cor2);
-    border: solid 2px var(--cor4);
+.coloroption input:checked +label{
+    border: 2px solid var(--cor4);
+    box-shadow: 0 0 0 2px white inset;
 }
-/*---arrumar e colocar id tbm*/
+.colorgray{background-color: var(--cor2);}
+.colorwhite{
+    border: solid 1px rgba(0, 0, 0, 0.151);
+    background-color: var(--cor1);}
+.colorblack{background-color: var(--cor5);}
 
-.button2{
-    background-color: var(--cor1);
-    border: solid 1px rgba(0, 0, 0, 0.096);
-}
-.button3{
-    background-color: var(--cor5);
-}
-.shipping{
+
+
+.shipping {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-.shipping > p{
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 15px;
     color: var(--cor3);
+    padding-top: 10px;
+    
 }
+
 .buttonssize{
     display: flex;
     gap: 10px;
